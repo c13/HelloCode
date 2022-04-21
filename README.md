@@ -1,3 +1,3 @@
 # HelloCode
 
-Типовые задачи из курса Python
+Typical tasks at Python
