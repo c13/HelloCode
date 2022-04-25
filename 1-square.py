@@ -1,8 +1,9 @@
+# Given two numbers, check if one is the square of the second
 
-a = int(input("Введите первое число:"))
-b = int(input("Введите второе число:"))
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
 
 if (a**2 == b) or (a == b**2):
-    print(f"Одно из чисел {a} и {b} является квадатом другого")
+     print(f"One of the numbers {a} and {b} is the square of the other")
 else:
-    print(f"Числа {a} и {b} не являются квадатами друг друга")
+     print(f"The numbers {a} and {b} are not each other's squares")

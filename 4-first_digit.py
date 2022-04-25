@@ -1,3 +1,4 @@
+# Show the first digit of the fractional part of a number
 
 a = float(input("Enter a fractional number with dot:"))
 

@@ -1,15 +1,6 @@
-def subsequence(s):
-    """
-    Function will get 3n+1
-    """
-    new = 3*s + 1
+# make dictionary for n elements: element number, 3n+1
 
-    return new
+n = 10
 
-n = 20
-spisok=[]
-
-for i in range(n):
-    spisok.append(subsequence(i))
-
-print(f"List of elements: {spisok}")
+Dictionary = {i: 3*i+1 for i in range(1, n+1)}
+print(f"List of elements 3n+1: {Dictionary}")
